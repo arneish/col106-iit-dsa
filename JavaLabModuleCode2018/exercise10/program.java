@@ -7,6 +7,10 @@ public class program
 		have the same last digit, such as with 27 and 57. Note that the % ”mod” operator
 		computes remainder, so 17%10 is 7.
 		*/
-		return false;
+		int lastdigit_a = a%10;
+		int lastdigit_b = b%10;
+		if (lastdigit_a==lastdigit_b)
+			return true;
+			return false;
 	}
 }
